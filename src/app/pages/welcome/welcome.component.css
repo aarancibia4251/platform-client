@@ -1,0 +1,39 @@
+
+
+[nz-carousel-content] {
+  text-align: center;
+  line-height: 160px;
+  background: #364d79;
+  color: #fff;
+  overflow: hidden;
+}
+
+.welcome {
+
+  .carousel {
+    height: 360px;
+  }
+
+  .courses {
+    padding: 10px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & h1.ant-typography {
+      width: 100%;
+      text-align: center;
+    }
+
+    .container {
+      width: 900px;
+    }
+  }
+}
+
+h3 {
+  color: #fff;
+  margin-bottom: 0;
+  user-select: none;
+}

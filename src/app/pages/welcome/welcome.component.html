@@ -1,0 +1,31 @@
+<div class="welcome">
+  <div class="carousel">
+    <nz-carousel [nzEffect]="effect">
+      <div nz-carousel-content *ngFor="let index of array">
+        <h3>{{ index }}</h3>
+      </div>
+    </nz-carousel>
+  </div>
+  <div class="courses">
+    <h1 nz-typography>Mis cursos</h1>
+    <div class="container">
+      <div nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32 }">
+        <div nz-col [nzSpan]="8">
+          <nz-card nzTitle="Card title">
+            <p>Card content</p>
+          </nz-card>
+        </div>
+        <div nz-col [nzSpan]="8">
+          <nz-card nzTitle="Card title">
+            <p>Card content</p>
+          </nz-card>
+        </div>
+        <div nz-col [nzSpan]="8">
+          <nz-card nzTitle="Card title">
+            <p>Card content</p>
+          </nz-card>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
